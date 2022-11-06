@@ -9,6 +9,11 @@ body{
     background-position:top;
     font-family: sans-serif;
 }
+img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
 .menu-bar{
     background-color:#a64921;
     text-align:center;
