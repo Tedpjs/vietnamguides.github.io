@@ -26,6 +26,7 @@ body h1{
     margin: 15px;
     padding: 10px;
     border-style:inset;
+    border-radius: 0.75em;
 }
 .menu-bar ul li a{
     text-decoration: none;
@@ -33,7 +34,7 @@ body h1{
 }
 .active, .menu-bar ul li:hover{
     background-color:#cfbe88;
-    border-radius: 2px;
+    border-radius: 0.75em;
 }
 #para1{
     background-color:cornsilk;
