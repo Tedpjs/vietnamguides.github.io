@@ -4,13 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-@viewport{
-    width: device-width;
-    zoom: 1.1;
-    min-zoom: 0.4;
-    max-zoom: 2;
-    user-zoom: fixed;
-}
 body{
     background-size:cover;
     background-position:top;
@@ -36,6 +29,7 @@ img{
     padding: 10px;
     border-style:inset;
     border-width: 3px;
+    border-radius: 0.75em;
 }
 .menu-bar ul li a{
     text-decoration: none;
@@ -43,5 +37,5 @@ img{
 }
 .active, .menu-bar ul li:hover{
     background-color:#b87254;
-    border-radius: 2px;
+    border-radius: 0.75em;
 }
